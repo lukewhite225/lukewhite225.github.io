@@ -2,23 +2,97 @@
 <html>
     <head>
         <title>Lukes Website</title>
-    
+        <style>
+            body {
+                background: rgb(165, 114, 19);
+                color: rgb(153, 10, 18);
+                padding: 10px;
+                font-family: arial;
+            }
+            #all-contents {
+              max-width: 800px;
+                margin: auto;
+            }
+         
+            /* navigation menu */
+            nav {
+                background: rgb(128, 30, 6);
+               margin: 0 auto;
+               margin-bottom: 20px;
+                display: flex;
+                padding: 10px;
+            }
+            h1 {
+                display: flex;
+                align-items: center;
+                color: rgb(136, 150, 15);
+                flex: 1;
+                margin: 0;
+            }
+            #nav-ul {
+                list-style-image: none;
+            }
+            .nav-li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+         
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar-img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            #interests {
+                border: 4px silver ridge;
+                padding: 8px;
+            }
+            h2, h3 {
+                margin: 0px;
+            }
+         </style>
     </head>
     
     <body>
-        <div>
+        <div id="all-contents">
+            
             <nav>
+                <h1>Luke's worship center</h1>
+                <ul id="nav-ul">
+                    <li class="nav-li">
+                        <a href="index.html"> Home </a>
+
+                    </li>
+                    <li class="nav-li">
+                        <a href="portfolio.html"> Portfolio</a>
+                    </li>
+                </ul>
 
             </nav>
 
             <main>
                 <!--Sidebar section-->
-                <div>
+                <div class="sidebar">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbm9aWuBlreqmlITHt1WN_cEEi5ovSsywlVedmFJjafzozs-8lJIWypbdAaHUjRPclW94:https://i.redd.it/4j6bojfijvm31.jpg&usqp=CAU">
 
                 </div>
 
                 <!--Content section-->
-                <div>
+                <div id="interest">
                     <h2> Luke white
                 
                     </h2>
@@ -27,8 +101,11 @@
                     </p>
                     <!--Interests section-->
                     <div>
-                        <h3>Intrests</h3>
+                        <h3>Interests</h3>
                         <ul>
+                            <li>Video games </li>
+                            <li>Music </li>
+                            <li>Musical instruments </li>
                             
                         </ul>
                     </div>
